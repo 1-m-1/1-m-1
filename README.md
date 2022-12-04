@@ -24,8 +24,20 @@ va_dir = work_dir + '/val'
 te_dir = work_dir + '/test'
 u_dir = root_dir + '/random sampling'
 model_dir1 = root_dir+'/model_dir'
+PATH = 'Fill this'
 ```
-*fill this 부분에 구글 드라이브 파일 위치를 넣어주세요*
+
++ *like this*
+```
+root_dir = '/content/drive/MyDrive/ML2/team/Data'
+work_dir = root_dir + '/imagetraining(200samples)/imagetraining(200samples)'
+tr_dir = work_dir + '/train'
+va_dir = work_dir + '/val'
+te_dir = work_dir + '/test'
+u_dir = root_dir + '/random sampling'
+model_dir1 = root_dir+'/model_dir'
+PATH = '/content/drive/MyDrive/ML2/team/Data/'
+```
 
 ### 4. CITATION
 ```
